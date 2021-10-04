@@ -1,0 +1,10 @@
+{
+    "name": "打开新页面时询问",
+    "brief": "作者：等待明天<br>会在用户前往其他网站的页面时弹出提示。<br>该插件需要依赖等待明天Notiflix信息通知插件",
+    "version": "1.2",
+    "bbs_version": "4.0",
+    "installed": 1,
+    "enable": 1,
+    "hooks_rank": [],
+    "dependencies": []
+}
