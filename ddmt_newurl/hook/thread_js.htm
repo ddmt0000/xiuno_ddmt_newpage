@@ -7,7 +7,7 @@
         if (ahref[i].href.substring(0,11) != "javascript:" && ahref[i].href != "#") {
             var domain = ahref[i].href.split("/");
             if (domain[2] != host_url) {
-                ahref[i].setAttribute("onclick", "Notiflix.Confirm.Show('即将跳转', '你即将离开本网站前往新的网站，我们无法确定新的网站是否安全，所以请答应我无论即将前往的是什么样的页面千万不要输入你的论坛账号和密码。确定前往吗？<br>" + ahref[i].href + "', '是的，我同意', '取消', function(){window.location.href='" + ahref[i].href + "';}, function(){});");
+                ahref[i].setAttribute("onclick", "Notiflix.Confirm.show('即将跳转', '你即将离开本网站前往新的网站，我们无法确定新的网站是否安全，所以请答应我无论即将前往的是什么样的页面千万不要输入你的论坛账号和密码。确定前往吗？<br>" + ahref[i].href + "', '是的，我同意', '取消', function(){window.location.href='" + ahref[i].href + "';}, function(){});");
                 ahref[i].target = "_self"
                 ahref[i].href = "javascript:void(0);";
             }
